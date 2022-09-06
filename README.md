@@ -18,9 +18,9 @@ chmod +x ./deployment/run-unit-tests.sh
 * Configure the solution name, version number and bucket name of your target Amazon S3 distribution bucket 
 
 ``` 
-export DIST_OUTPUT_BUCKET_PREFIX=my-bucket-prefix # Prefix for the S3 bucket where customized code will be stored 
-export TEMPLATE_OUTPUT_BUCKET=my-bucket-name # Name for the S3 bucket where the template will be stored
-export SOLUTION_NAME=my-solution-name # name of the solution (e.g. customizations-for-aws-control-tower)
+export DIST_OUTPUT_BUCKET_PREFIX=dist                                                                      
+export TEMPLATE_OUTPUT_BUCKET=control-tower-customizations                                             
+export SOLUTION_NAME=control-tower-customizations
 export VERSION=my-version # version number for the customized code  (e.g. 2.1.0)
 ```
 
