@@ -4,6 +4,8 @@ The Customizations for AWS Control Tower solution combines AWS Control Tower and
 ## Getting Started 
 To get started with Customizations for AWS Control Tower, please review the [documentation](https://docs.aws.amazon.com/controltower/latest/userguide/customize-landing-zone.html)
 
+[Deploy](https://us-east-1.console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?templateUrl=https%3A%2F%2Fcustomizations-for-aws-control-tower.s3.amazonaws.com%2Fcustomizations-for-aws-control-tower%2F1%2Fcustom-control-tower-initiation.template&stackName=CustomizationsForAWSControlTower&param_CodeCommitBranchName=main&param_CodeCommitRepositoryName=custom-control-tower-configuration&param_CodePipelineSource=AWS%20CodeCommit&param_EnforceSuccessfulStackInstances=false&param_ExistingRepository=Yes&param_FailureTolerancePercentage=10&param_MaxConcurrentPercentage=100&param_PipelineApprovalEmail=&param_PipelineApprovalStage=No&param_RegionConcurrencyType=PARALLEL)
+
 ## Running unit tests for customization 
 * Clone the repository, then make the desired code changes 
 * Next, run unit tests to make sure added customization passes the tests 
